@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculadora</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+    <section id="mainBox">
+        <input type="text" id="inputNumbers" autofocus placeholder="Exemplo: 5 + 5">
+        <div class="box-copy">
+            <button id="copy"><img src="images/copy.png" alt="" width="36" height="36"></button>
+            <button id="check"> <img src="images/check.png" width="36"  height="36" alt=""></button>
+            <input type="text" id="inputResult" disabled>
+        </div>
+       
+        <div class="sectionNumbers">
+            <button id="clean">C</button>
+            <button class="key operation" data-value=" / ">÷</button>
+            <button class="key operation" data-value=" * ">x</button>
+            <button class="key" data-value="1">1</button>
+            <button class="key" data-value="2">2</button>
+            <button class="key" data-value="3">3</button>
+            <button class="key operation" data-value=" + ">+</button>
+
+            <button class="key" data-value="4">4</button>
+            <button class="key" data-value="5">5</button>
+            <button class="key" data-value="6">6</button>
+            <button class="key operation" data-value=" - " > - </button>
+
+            <button class="key" data-value="7">7</button>
+            <button class="key" data-value="8">8</button>
+            <button class="key" data-value="9">9</button>
+            <button id="resultEqual">=</button>
+
+            <button id="backspace"><img src="images/leftarrow.png" alt="" width="32" height="32"></button>
+            <button class="key" data-value="0">0</button>
+            <button class="key" data-value=".">.</button>
+        </div>
+    </section>
+
+    <script src="javascript/script.js" type="module"></script>
+
+</body>
+</html>
